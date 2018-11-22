@@ -1,0 +1,761 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C553A4421A708E6004BE10F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C553A4321A708E6004BE10F /* AppDelegate.swift */; };
+		4C553A4621A708E6004BE10F /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C553A4521A708E6004BE10F /* art.scnassets */; };
+		4C553A4B21A708E6004BE10F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C553A4921A708E6004BE10F /* Main.storyboard */; };
+		4C553A4D21A708E7004BE10F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C553A4C21A708E7004BE10F /* Assets.xcassets */; };
+		4C553A5021A708E7004BE10F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C553A4E21A708E7004BE10F /* LaunchScreen.storyboard */; };
+		4C553A5B21A708E7004BE10F /* PacMan_MazeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C553A5A21A708E7004BE10F /* PacMan_MazeTests.swift */; };
+		4C553A6621A708E7004BE10F /* PacMan_MazeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C553A6521A708E7004BE10F /* PacMan_MazeUITests.swift */; };
+		4C553A8C21A709E5004BE10F /* IMG_4332.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 4C553A7421A709E5004BE10F /* IMG_4332.JPG */; };
+		4C553A8D21A709E5004BE10F /* IMG_4334.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 4C553A7521A709E5004BE10F /* IMG_4334.JPG */; };
+		4C553A8E21A709E5004BE10F /* image.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 4C553A7621A709E5004BE10F /* image.JPG */; };
+		4C553A8F21A709E5004BE10F /* AboutMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C553A7821A709E5004BE10F /* AboutMeViewController.swift */; };
+		4C553A9021A709E5004BE10F /* firstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C553A7921A709E5004BE10F /* firstViewController.swift */; };
+		4C553A9121A709E5004BE10F /* aboutMeSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C553A7A21A709E5004BE10F /* aboutMeSegue.swift */; };
+		4C553A9221A709E5004BE10F /* nature.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4C553A7B21A709E5004BE10F /* nature.mp4 */; };
+		4C553A9321A709E5004BE10F /* third.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4C553A7C21A709E5004BE10F /* third.mp4 */; };
+		4C553A9421A709E5004BE10F /* Swift+File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C553A7E21A709E5004BE10F /* Swift+File.swift */; };
+		4C553A9521A709E5004BE10F /* menuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C553A7F21A709E5004BE10F /* menuViewController.swift */; };
+		4C553A9621A709E5004BE10F /* ththpacman.gif~c200.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4C553A8121A709E5004BE10F /* ththpacman.gif~c200.gif */; };
+		4C553A9721A709E5004BE10F /* Alex1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C553A8221A709E5004BE10F /* Alex1.png */; };
+		4C553A9821A709E5004BE10F /* pacman_blank.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C553A8321A709E5004BE10F /* pacman_blank.png */; };
+		4C553A9921A709E5004BE10F /* gamepad-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C553A8421A709E5004BE10F /* gamepad-2.png */; };
+		4C553A9A21A709E5004BE10F /* pacman-game.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C553A8521A709E5004BE10F /* pacman-game.png */; };
+		4C553A9B21A709E5004BE10F /* user-silhouette-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C553A8621A709E5004BE10F /* user-silhouette-2.png */; };
+		4C553A9C21A709E5004BE10F /* anime.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C553A8721A709E5004BE10F /* anime.png */; };
+		4C553A9D21A709E5004BE10F /* pacman.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4C553A8821A709E5004BE10F /* pacman.gif */; };
+		4C553A9E21A709E5004BE10F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C553A8A21A709E5004BE10F /* ViewController.swift */; };
+		4C553A9F21A709E5004BE10F /* cinema.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4C553A8B21A709E5004BE10F /* cinema.mp4 */; };
+		4C553AAB21A709F5004BE10F /* SF Pixelate Shaded Bold Oblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C553AA121A709F5004BE10F /* SF Pixelate Shaded Bold Oblique.ttf */; };
+		4C553AAC21A709F5004BE10F /* SF Pixelate Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C553AA221A709F5004BE10F /* SF Pixelate Bold.ttf */; };
+		4C553AAD21A709F5004BE10F /* SF Pixelate Shaded Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C553AA321A709F5004BE10F /* SF Pixelate Shaded Bold.ttf */; };
+		4C553AAE21A709F5004BE10F /* SF Pixelate.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C553AA421A709F5004BE10F /* SF Pixelate.ttf */; };
+		4C553AAF21A709F5004BE10F /* SF Pixelate Shaded.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C553AA521A709F5004BE10F /* SF Pixelate Shaded.ttf */; };
+		4C553AB021A709F5004BE10F /* SF Pixelate Shaded Oblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C553AA621A709F5004BE10F /* SF Pixelate Shaded Oblique.ttf */; };
+		4C553AB121A709F5004BE10F /* SF Pixelate Sample.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C553AA721A709F5004BE10F /* SF Pixelate Sample.jpg */; };
+		4C553AB221A709F5004BE10F /* Readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4C553AA821A709F5004BE10F /* Readme.txt */; };
+		4C553AB321A709F5004BE10F /* SF Pixelate Oblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C553AA921A709F5004BE10F /* SF Pixelate Oblique.ttf */; };
+		4C553AB421A709F5004BE10F /* SF Pixelate Bold Oblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C553AAA21A709F5004BE10F /* SF Pixelate Bold Oblique.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C553A5721A708E7004BE10F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C553A3821A708E6004BE10F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C553A3F21A708E6004BE10F;
+			remoteInfo = "PacMan-Maze";
+		};
+		4C553A6221A708E7004BE10F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C553A3821A708E6004BE10F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C553A3F21A708E6004BE10F;
+			remoteInfo = "PacMan-Maze";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C553A4021A708E6004BE10F /* PacMan-Maze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PacMan-Maze.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C553A4321A708E6004BE10F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4C553A4521A708E6004BE10F /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		4C553A4A21A708E6004BE10F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C553A4C21A708E7004BE10F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C553A4F21A708E7004BE10F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C553A5121A708E7004BE10F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C553A5621A708E7004BE10F /* PacMan-MazeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PacMan-MazeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C553A5A21A708E7004BE10F /* PacMan_MazeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacMan_MazeTests.swift; sourceTree = "<group>"; };
+		4C553A5C21A708E7004BE10F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C553A6121A708E7004BE10F /* PacMan-MazeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PacMan-MazeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C553A6521A708E7004BE10F /* PacMan_MazeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacMan_MazeUITests.swift; sourceTree = "<group>"; };
+		4C553A6721A708E7004BE10F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C553A7421A709E5004BE10F /* IMG_4332.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_4332.JPG; sourceTree = "<group>"; };
+		4C553A7521A709E5004BE10F /* IMG_4334.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_4334.JPG; sourceTree = "<group>"; };
+		4C553A7621A709E5004BE10F /* image.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image.JPG; sourceTree = "<group>"; };
+		4C553A7821A709E5004BE10F /* AboutMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutMeViewController.swift; sourceTree = "<group>"; };
+		4C553A7921A709E5004BE10F /* firstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = firstViewController.swift; sourceTree = "<group>"; };
+		4C553A7A21A709E5004BE10F /* aboutMeSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = aboutMeSegue.swift; sourceTree = "<group>"; };
+		4C553A7B21A709E5004BE10F /* nature.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = nature.mp4; path = "PacMan-Maze/nature.mp4"; sourceTree = "<group>"; };
+		4C553A7C21A709E5004BE10F /* third.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = third.mp4; path = "PacMan-Maze/third.mp4"; sourceTree = "<group>"; };
+		4C553A7E21A709E5004BE10F /* Swift+File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift+File.swift"; sourceTree = "<group>"; };
+		4C553A7F21A709E5004BE10F /* menuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = menuViewController.swift; sourceTree = "<group>"; };
+		4C553A8121A709E5004BE10F /* ththpacman.gif~c200.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "ththpacman.gif~c200.gif"; sourceTree = "<group>"; };
+		4C553A8221A709E5004BE10F /* Alex1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Alex1.png; sourceTree = "<group>"; };
+		4C553A8321A709E5004BE10F /* pacman_blank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pacman_blank.png; sourceTree = "<group>"; };
+		4C553A8421A709E5004BE10F /* gamepad-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gamepad-2.png"; sourceTree = "<group>"; };
+		4C553A8521A709E5004BE10F /* pacman-game.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pacman-game.png"; sourceTree = "<group>"; };
+		4C553A8621A709E5004BE10F /* user-silhouette-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "user-silhouette-2.png"; sourceTree = "<group>"; };
+		4C553A8721A709E5004BE10F /* anime.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = anime.png; sourceTree = "<group>"; };
+		4C553A8821A709E5004BE10F /* pacman.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = pacman.gif; path = "PacMan-Maze/pacman.gif"; sourceTree = "<group>"; };
+		4C553A8A21A709E5004BE10F /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4C553A8B21A709E5004BE10F /* cinema.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = cinema.mp4; path = "PacMan-Maze/cinema.mp4"; sourceTree = "<group>"; };
+		4C553AA121A709F5004BE10F /* SF Pixelate Shaded Bold Oblique.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF Pixelate Shaded Bold Oblique.ttf"; sourceTree = "<group>"; };
+		4C553AA221A709F5004BE10F /* SF Pixelate Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF Pixelate Bold.ttf"; sourceTree = "<group>"; };
+		4C553AA321A709F5004BE10F /* SF Pixelate Shaded Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF Pixelate Shaded Bold.ttf"; sourceTree = "<group>"; };
+		4C553AA421A709F5004BE10F /* SF Pixelate.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF Pixelate.ttf"; sourceTree = "<group>"; };
+		4C553AA521A709F5004BE10F /* SF Pixelate Shaded.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF Pixelate Shaded.ttf"; sourceTree = "<group>"; };
+		4C553AA621A709F5004BE10F /* SF Pixelate Shaded Oblique.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF Pixelate Shaded Oblique.ttf"; sourceTree = "<group>"; };
+		4C553AA721A709F5004BE10F /* SF Pixelate Sample.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "SF Pixelate Sample.jpg"; sourceTree = "<group>"; };
+		4C553AA821A709F5004BE10F /* Readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme.txt; sourceTree = "<group>"; };
+		4C553AA921A709F5004BE10F /* SF Pixelate Oblique.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF Pixelate Oblique.ttf"; sourceTree = "<group>"; };
+		4C553AAA21A709F5004BE10F /* SF Pixelate Bold Oblique.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF Pixelate Bold Oblique.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C553A3D21A708E6004BE10F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C553A5321A708E7004BE10F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C553A5E21A708E7004BE10F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C553A3721A708E6004BE10F = {
+			isa = PBXGroup;
+			children = (
+				4C553AA021A709F5004BE10F /* sf_pixelate */,
+				4C553A8B21A709E5004BE10F /* cinema.mp4 */,
+				4C553A7321A709E5004BE10F /* image2 */,
+				4C553A8021A709E5004BE10F /* Images */,
+				4C553A7B21A709E5004BE10F /* nature.mp4 */,
+				4C553A8821A709E5004BE10F /* pacman.gif */,
+				4C553A7C21A709E5004BE10F /* third.mp4 */,
+				4C553A4221A708E6004BE10F /* PacMan-Maze */,
+				4C553A5921A708E7004BE10F /* PacMan-MazeTests */,
+				4C553A6421A708E7004BE10F /* PacMan-MazeUITests */,
+				4C553A4121A708E6004BE10F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C553A4121A708E6004BE10F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C553A4021A708E6004BE10F /* PacMan-Maze.app */,
+				4C553A5621A708E7004BE10F /* PacMan-MazeTests.xctest */,
+				4C553A6121A708E7004BE10F /* PacMan-MazeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C553A4221A708E6004BE10F /* PacMan-Maze */ = {
+			isa = PBXGroup;
+			children = (
+				4C553A7721A709E5004BE10F /* AboutMeView */,
+				4C553A7D21A709E5004BE10F /* MenuViewù */,
+				4C553A8921A709E5004BE10F /* PlayView */,
+				4C553A4321A708E6004BE10F /* AppDelegate.swift */,
+				4C553A4521A708E6004BE10F /* art.scnassets */,
+				4C553A4921A708E6004BE10F /* Main.storyboard */,
+				4C553A4C21A708E7004BE10F /* Assets.xcassets */,
+				4C553A4E21A708E7004BE10F /* LaunchScreen.storyboard */,
+				4C553A5121A708E7004BE10F /* Info.plist */,
+			);
+			path = "PacMan-Maze";
+			sourceTree = "<group>";
+		};
+		4C553A5921A708E7004BE10F /* PacMan-MazeTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C553A5A21A708E7004BE10F /* PacMan_MazeTests.swift */,
+				4C553A5C21A708E7004BE10F /* Info.plist */,
+			);
+			path = "PacMan-MazeTests";
+			sourceTree = "<group>";
+		};
+		4C553A6421A708E7004BE10F /* PacMan-MazeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4C553A6521A708E7004BE10F /* PacMan_MazeUITests.swift */,
+				4C553A6721A708E7004BE10F /* Info.plist */,
+			);
+			path = "PacMan-MazeUITests";
+			sourceTree = "<group>";
+		};
+		4C553A7321A709E5004BE10F /* image2 */ = {
+			isa = PBXGroup;
+			children = (
+				4C553A7421A709E5004BE10F /* IMG_4332.JPG */,
+				4C553A7521A709E5004BE10F /* IMG_4334.JPG */,
+				4C553A7621A709E5004BE10F /* image.JPG */,
+			);
+			name = image2;
+			path = "PacMan-Maze/image2";
+			sourceTree = "<group>";
+		};
+		4C553A7721A709E5004BE10F /* AboutMeView */ = {
+			isa = PBXGroup;
+			children = (
+				4C553A7821A709E5004BE10F /* AboutMeViewController.swift */,
+				4C553A7921A709E5004BE10F /* firstViewController.swift */,
+				4C553A7A21A709E5004BE10F /* aboutMeSegue.swift */,
+			);
+			path = AboutMeView;
+			sourceTree = "<group>";
+		};
+		4C553A7D21A709E5004BE10F /* MenuViewù */ = {
+			isa = PBXGroup;
+			children = (
+				4C553A7E21A709E5004BE10F /* Swift+File.swift */,
+				4C553A7F21A709E5004BE10F /* menuViewController.swift */,
+			);
+			path = "MenuViewù";
+			sourceTree = "<group>";
+		};
+		4C553A8021A709E5004BE10F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4C553A8121A709E5004BE10F /* ththpacman.gif~c200.gif */,
+				4C553A8221A709E5004BE10F /* Alex1.png */,
+				4C553A8321A709E5004BE10F /* pacman_blank.png */,
+				4C553A8421A709E5004BE10F /* gamepad-2.png */,
+				4C553A8521A709E5004BE10F /* pacman-game.png */,
+				4C553A8621A709E5004BE10F /* user-silhouette-2.png */,
+				4C553A8721A709E5004BE10F /* anime.png */,
+			);
+			name = Images;
+			path = "PacMan-Maze/Images";
+			sourceTree = "<group>";
+		};
+		4C553A8921A709E5004BE10F /* PlayView */ = {
+			isa = PBXGroup;
+			children = (
+				4C553A8A21A709E5004BE10F /* ViewController.swift */,
+			);
+			path = PlayView;
+			sourceTree = "<group>";
+		};
+		4C553AA021A709F5004BE10F /* sf_pixelate */ = {
+			isa = PBXGroup;
+			children = (
+				4C553AA121A709F5004BE10F /* SF Pixelate Shaded Bold Oblique.ttf */,
+				4C553AA221A709F5004BE10F /* SF Pixelate Bold.ttf */,
+				4C553AA321A709F5004BE10F /* SF Pixelate Shaded Bold.ttf */,
+				4C553AA421A709F5004BE10F /* SF Pixelate.ttf */,
+				4C553AA521A709F5004BE10F /* SF Pixelate Shaded.ttf */,
+				4C553AA621A709F5004BE10F /* SF Pixelate Shaded Oblique.ttf */,
+				4C553AA721A709F5004BE10F /* SF Pixelate Sample.jpg */,
+				4C553AA821A709F5004BE10F /* Readme.txt */,
+				4C553AA921A709F5004BE10F /* SF Pixelate Oblique.ttf */,
+				4C553AAA21A709F5004BE10F /* SF Pixelate Bold Oblique.ttf */,
+			);
+			path = sf_pixelate;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C553A3F21A708E6004BE10F /* PacMan-Maze */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C553A6A21A708E7004BE10F /* Build configuration list for PBXNativeTarget "PacMan-Maze" */;
+			buildPhases = (
+				4C553A3C21A708E6004BE10F /* Sources */,
+				4C553A3D21A708E6004BE10F /* Frameworks */,
+				4C553A3E21A708E6004BE10F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PacMan-Maze";
+			productName = "PacMan-Maze";
+			productReference = 4C553A4021A708E6004BE10F /* PacMan-Maze.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C553A5521A708E7004BE10F /* PacMan-MazeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C553A6D21A708E7004BE10F /* Build configuration list for PBXNativeTarget "PacMan-MazeTests" */;
+			buildPhases = (
+				4C553A5221A708E7004BE10F /* Sources */,
+				4C553A5321A708E7004BE10F /* Frameworks */,
+				4C553A5421A708E7004BE10F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C553A5821A708E7004BE10F /* PBXTargetDependency */,
+			);
+			name = "PacMan-MazeTests";
+			productName = "PacMan-MazeTests";
+			productReference = 4C553A5621A708E7004BE10F /* PacMan-MazeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4C553A6021A708E7004BE10F /* PacMan-MazeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C553A7021A708E7004BE10F /* Build configuration list for PBXNativeTarget "PacMan-MazeUITests" */;
+			buildPhases = (
+				4C553A5D21A708E7004BE10F /* Sources */,
+				4C553A5E21A708E7004BE10F /* Frameworks */,
+				4C553A5F21A708E7004BE10F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C553A6321A708E7004BE10F /* PBXTargetDependency */,
+			);
+			name = "PacMan-MazeUITests";
+			productName = "PacMan-MazeUITests";
+			productReference = 4C553A6121A708E7004BE10F /* PacMan-MazeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C553A3821A708E6004BE10F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Ferdinando Piedepalumbo";
+				TargetAttributes = {
+					4C553A3F21A708E6004BE10F = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					4C553A5521A708E7004BE10F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 4C553A3F21A708E6004BE10F;
+					};
+					4C553A6021A708E7004BE10F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 4C553A3F21A708E6004BE10F;
+					};
+				};
+			};
+			buildConfigurationList = 4C553A3B21A708E6004BE10F /* Build configuration list for PBXProject "PacMan-Maze" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C553A3721A708E6004BE10F;
+			productRefGroup = 4C553A4121A708E6004BE10F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C553A3F21A708E6004BE10F /* PacMan-Maze */,
+				4C553A5521A708E7004BE10F /* PacMan-MazeTests */,
+				4C553A6021A708E7004BE10F /* PacMan-MazeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C553A3E21A708E6004BE10F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C553AB121A709F5004BE10F /* SF Pixelate Sample.jpg in Resources */,
+				4C553AAD21A709F5004BE10F /* SF Pixelate Shaded Bold.ttf in Resources */,
+				4C553A9721A709E5004BE10F /* Alex1.png in Resources */,
+				4C553A9A21A709E5004BE10F /* pacman-game.png in Resources */,
+				4C553AB221A709F5004BE10F /* Readme.txt in Resources */,
+				4C553A9221A709E5004BE10F /* nature.mp4 in Resources */,
+				4C553AB321A709F5004BE10F /* SF Pixelate Oblique.ttf in Resources */,
+				4C553A9D21A709E5004BE10F /* pacman.gif in Resources */,
+				4C553A4621A708E6004BE10F /* art.scnassets in Resources */,
+				4C553A9B21A709E5004BE10F /* user-silhouette-2.png in Resources */,
+				4C553A8E21A709E5004BE10F /* image.JPG in Resources */,
+				4C553AAE21A709F5004BE10F /* SF Pixelate.ttf in Resources */,
+				4C553AB021A709F5004BE10F /* SF Pixelate Shaded Oblique.ttf in Resources */,
+				4C553AAB21A709F5004BE10F /* SF Pixelate Shaded Bold Oblique.ttf in Resources */,
+				4C553A9C21A709E5004BE10F /* anime.png in Resources */,
+				4C553AAF21A709F5004BE10F /* SF Pixelate Shaded.ttf in Resources */,
+				4C553A5021A708E7004BE10F /* LaunchScreen.storyboard in Resources */,
+				4C553AAC21A709F5004BE10F /* SF Pixelate Bold.ttf in Resources */,
+				4C553A8C21A709E5004BE10F /* IMG_4332.JPG in Resources */,
+				4C553A4D21A708E7004BE10F /* Assets.xcassets in Resources */,
+				4C553A9621A709E5004BE10F /* ththpacman.gif~c200.gif in Resources */,
+				4C553A4B21A708E6004BE10F /* Main.storyboard in Resources */,
+				4C553A8D21A709E5004BE10F /* IMG_4334.JPG in Resources */,
+				4C553A9F21A709E5004BE10F /* cinema.mp4 in Resources */,
+				4C553A9821A709E5004BE10F /* pacman_blank.png in Resources */,
+				4C553A9921A709E5004BE10F /* gamepad-2.png in Resources */,
+				4C553A9321A709E5004BE10F /* third.mp4 in Resources */,
+				4C553AB421A709F5004BE10F /* SF Pixelate Bold Oblique.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C553A5421A708E7004BE10F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C553A5F21A708E7004BE10F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C553A3C21A708E6004BE10F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C553A9421A709E5004BE10F /* Swift+File.swift in Sources */,
+				4C553A8F21A709E5004BE10F /* AboutMeViewController.swift in Sources */,
+				4C553A4421A708E6004BE10F /* AppDelegate.swift in Sources */,
+				4C553A9521A709E5004BE10F /* menuViewController.swift in Sources */,
+				4C553A9E21A709E5004BE10F /* ViewController.swift in Sources */,
+				4C553A9021A709E5004BE10F /* firstViewController.swift in Sources */,
+				4C553A9121A709E5004BE10F /* aboutMeSegue.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C553A5221A708E7004BE10F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C553A5B21A708E7004BE10F /* PacMan_MazeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C553A5D21A708E7004BE10F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C553A6621A708E7004BE10F /* PacMan_MazeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C553A5821A708E7004BE10F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C553A3F21A708E6004BE10F /* PacMan-Maze */;
+			targetProxy = 4C553A5721A708E7004BE10F /* PBXContainerItemProxy */;
+		};
+		4C553A6321A708E7004BE10F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C553A3F21A708E6004BE10F /* PacMan-Maze */;
+			targetProxy = 4C553A6221A708E7004BE10F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C553A4921A708E6004BE10F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C553A4A21A708E6004BE10F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4C553A4E21A708E7004BE10F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C553A4F21A708E7004BE10F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C553A6821A708E7004BE10F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4C553A6921A708E7004BE10F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C553A6B21A708E7004BE10F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6E93J5X85L;
+				INFOPLIST_FILE = "PacMan-Maze/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.piedepalumbo.PacMan-Maze";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C553A6C21A708E7004BE10F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6E93J5X85L;
+				INFOPLIST_FILE = "PacMan-Maze/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.piedepalumbo.PacMan-Maze";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4C553A6E21A708E7004BE10F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6E93J5X85L;
+				INFOPLIST_FILE = "PacMan-MazeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.piedepalumbo.PacMan-MazeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PacMan-Maze.app/PacMan-Maze";
+			};
+			name = Debug;
+		};
+		4C553A6F21A708E7004BE10F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6E93J5X85L;
+				INFOPLIST_FILE = "PacMan-MazeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.piedepalumbo.PacMan-MazeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PacMan-Maze.app/PacMan-Maze";
+			};
+			name = Release;
+		};
+		4C553A7121A708E7004BE10F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6E93J5X85L;
+				INFOPLIST_FILE = "PacMan-MazeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.piedepalumbo.PacMan-MazeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "PacMan-Maze";
+			};
+			name = Debug;
+		};
+		4C553A7221A708E7004BE10F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6E93J5X85L;
+				INFOPLIST_FILE = "PacMan-MazeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.piedepalumbo.PacMan-MazeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "PacMan-Maze";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C553A3B21A708E6004BE10F /* Build configuration list for PBXProject "PacMan-Maze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C553A6821A708E7004BE10F /* Debug */,
+				4C553A6921A708E7004BE10F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C553A6A21A708E7004BE10F /* Build configuration list for PBXNativeTarget "PacMan-Maze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C553A6B21A708E7004BE10F /* Debug */,
+				4C553A6C21A708E7004BE10F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C553A6D21A708E7004BE10F /* Build configuration list for PBXNativeTarget "PacMan-MazeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C553A6E21A708E7004BE10F /* Debug */,
+				4C553A6F21A708E7004BE10F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C553A7021A708E7004BE10F /* Build configuration list for PBXNativeTarget "PacMan-MazeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C553A7121A708E7004BE10F /* Debug */,
+				4C553A7221A708E7004BE10F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C553A3821A708E6004BE10F /* Project object */;
+}
